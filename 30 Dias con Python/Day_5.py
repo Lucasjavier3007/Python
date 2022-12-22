@@ -1,13 +1,13 @@
 # Day_5_of_30_With_Python 😁: Flow Control / Control de Flujo
 """
-conditionals and loops / Condicionales y bucles    
+conditionals / Condicionales   
 
 If a program were nothing more than a list of commands to be executed sequentially, one by one,
 it wouldn't be very useful. Conditionals allow us to check conditions and make our program behave in
 one way or another, to execute one piece of code or another, depending on this condition. 
  
- Si un programa no fuera más que una lista de órdenes a ejecutar de forma secuencial, una por una,
- no tendría mucha utilidad. Los condicionales nos permiten comprobar condiciones y hacer que nuestro programa
+ Si un programa no fuera más que una lista de órdenes a ejecutar de forma secuencial, una por una,no tendría mucha utilidad.
+ Los condicionales nos permiten comprobar condiciones y hacer que nuestro programa
  se comporte de una forma u otra, que ejecute un fragmento de código u otro, dependiendo de esta condición.
 """
 # This is where the Boolean type and the logical and relational operators come into importance.
@@ -24,3 +24,4 @@ dos puntos (:) y en la siguiente línea e indentado, el código a ejecutar en ca
 day = "Lunes"
 if day == "Lunes" :
     print ("Comienza la semana con Tutti")
+
