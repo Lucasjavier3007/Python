@@ -1,6 +1,6 @@
 # Day_5_of_30_With_Python 😁: Flow Control / Control de Flujo
 """
-conditionals / Condicionales   
+conditionals: if, elif, else / Condicionales   
 
 If a program were nothing more than a list of commands to be executed sequentially, one by one,
 it wouldn't be very useful. Conditionals allow us to check conditions and make our program behave in
@@ -23,5 +23,31 @@ dos puntos (:) y en la siguiente línea e indentado, el código a ejecutar en ca
 '''
 day = "Lunes"
 if day == "Lunes" :
-    print ("Comienza la semana con Tutti")
+    print ("Comienza la semana con Tutti") #Si colocamos 2 ordenes de print, python sabe que nuestra intencion es que los dos print se ejecuten
+    print("Gó") #solo en caso de que se cumpla la condicion.
 
+# if else
+'''
+Lo utilizamos cuando queramos que se ejecutara otra orden en caso de que la primer condicion no se cumpla
+'''
+
+day = "Monday"
+if day == "Friday":
+    print("Llego el lunes!!")
+    print("Vamos de nuevo!")
+else:
+    print("Ohhh raaaaiiiiooooossss! Aun no termino la semana")
+
+# if ...elif..elif...else
+
+numero = 6               # ELIF es una contraccion de else IF, Primero evalua la condicion de IF, si es cierta se ejecuta 
+if numero < 0:           # el codigo y se continua ejecutando el codigo posterior al condicional; si no se cumple, se evalua
+    print("Negativo")    # y hay mas de un ELIF se continua con el siguiente en orden de aparicion.
+elif numero >0:          # Si no se cumple la condicion del IF ni de ninguno de los ELIF, se ejecuta el codigo de ELSE
+    print("Positivo")
+else:
+    print("Zero")
+
+
+
+    
