@@ -1,4 +1,7 @@
-# Day_2 _of _30_with_python 😎: Variables_building_functions
+# Day_2 _of _30_with_python 😎: Variables
+
+#sintaxis: 
+#nombre = "Lucas Oviedo"
 
 # Variables, Building Functions (Funciones integradas)
 #Las funciones integradas esta disponibles para su uso, no hace falta configurarlas
@@ -159,3 +162,23 @@ print(age)
 '''
 help ("keywords")
 '''
+
+cantidadPersonas = 100
+print(cantidadPersonas)
+
+name = input("Ingresa tu nombre")
+# input me permite que el usuario ingrese valores por teclado
+edad = int(input("ingresa tu edad"))
+#para numeros debemos indicarle si es entero o float, en caso de no hacerlo, me devuelve un string
+
+'''
+Ejercicio 3)
+Realizar un programa que haga el proceso de formula general para la resolucion de ecuaciones, sabiendo que
+la formula gral es "formula".
+El usuario debe ingresar los valores de "a", "b" y "c", y el programa debe hacer el proceso para que al final muestre el mensaje: "La solucion es: <solucion>"
+'''
+a = int(input("Ingrese el valor de 'a':"))
+b = int(input("Ingrese el valor de 'b':"))
+c = int(input("Ingrese el valor de 'c':"))
+
+formula = ((-b+-(b**2-(4*a*c))))

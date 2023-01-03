@@ -1,4 +1,27 @@
 # Day 3 of 30 with Python 😁: Operators
+'''
+Los operadores son simbolos especiales que representan calculos, como la suma o la multiplicacion.
+Los valores a los cuales se aplican esos operadores reciben el nombre de operandos
+'''
+suma = (2+3)
+resta = (5-2)
+division = (100/10)
+multiplicacion = (5*2)
+modulo = (100%10)
+exponenciacion = (2**3)
+divisionEntera = (40//2)
+
+"""
+Jerarquia:
+cuando se presentan muchas operaciones aritmeticas, la jerarquia determina
+el orden con el que deben realizarse esas operaciones
+"""
+
+'''
+Orden de operacion:
+Parentesis- Exponenciacion- Multiplicacion, division- suma y resta
+
+'''
 
 #Boolean
 """    
@@ -146,3 +169,36 @@ print("La circunsferencia creada es de:",c)
 
 # b)  Calculate the slope, x-intercept and y-intercept of y = 2x -2 
 #  Calcular la pendiente x, la interseccion y 
+
+'''
+Ejercicios:
+1) Escribir un programa que realice la siguiente operacion aritmetica:
+((3+2)/(2*5))**2
+'''
+a= 3+2
+b=2*5
+c= a/b
+d= c**2
+ejercicio = (a/b)**2
+
+'''
+Ejercicio 2)
+Una jugueteria tiene mucho exito en dos de sus productos:
+payasos y muñecas. Suele hacer venta por correo y la empresa de logistica
+les cobra por peso de cada paquete, asi que deben calcular el peso de los 
+payasos y muñecas que saldrian en cada paquete a demanda. Cada payaso pesa 112g y cada muñeca
+75g. Un cliente frecuente pide la cantidad de 23 payasos y 54 muñecas, realiza un programa
+que muestre el peso total de toda la venta'''
+
+payasos = 112
+muñecas = 75
+pesoTotalVenta = ((23*payasos)+(54*muñecas))
+print(pesoTotalVenta)
+
+
+"""
+pow = es una variable que podemos utilizar para la exponenciacion
+sintaxis:
+calculo= pow(5,2) en esta oportunidad vamos a elevar al cuadrado el n 5    
+    
+"""

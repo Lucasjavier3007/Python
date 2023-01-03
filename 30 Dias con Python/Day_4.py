@@ -84,3 +84,4 @@ print(d["The Beatles"]) #print John Lennon
 Dictionaries are mappings (associations, mapped), so we cannot use Slicing (since they are not sequenced data)
 Los Diccionarios son mappings (asociaciones, mapeados), por lo cual no podemos utilizar Slicing (ya que no son datos en secuencia)
 '''
+
